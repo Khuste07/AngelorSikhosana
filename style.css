@@ -789,7 +789,7 @@
 
             border: 1px solid var(--border);
 
-            background: var(--card);
+            
         }
 
 
@@ -808,25 +808,7 @@
 
         /* duotone green tint, ties every photo to the site palette */
 
-        .about-photo::before {
-
-            content: "";
-
-            position: absolute;
-
-            inset: 0;
-
-            );
-
-            mix-blend-mode: color;
-
-            opacity: 0.85;
-
-            pointer-events: none;
-
-            z-index: 1;
-        }
-
+        
 
         /* bottom fade so the caption stays legible */
 
